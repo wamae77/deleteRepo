@@ -1,6 +1,3 @@
-import java.net.URI
-
-
 pluginManagement {
     repositories {
         google()
@@ -13,12 +10,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://jitpack.io")
-            credentials {
-                username = "jp_l43utbn9e1e8b6fcu6s8vse8ns"
-            }
-        }
+//        maven {
+//            url = uri("https://jitpack.io")
+//            credentials {
+//                username = "jp_hn6rfihc1bs0f1ekmsdrl5jfkq"
+//            }
+//        }
     }
 }
 
